@@ -13,15 +13,6 @@ HashTable 也叫 HashMap 类，他是 Dictionary 类的一种散列表实现方�
 数据结构来找它。如果用散列函数，就知道值的具体位置，因此能快速检索到该值。散列函数的作用是给
 定一个键值，然后返回值在表中的地址。
 
-<div>
-  <a href='https://upload.junfengshow.com/docs/foundation/hash_explain_01.png' target='_blank'>
-    <img 
-      src='https://upload.junfengshow.com/docs/foundation/hash_explain_01.png'
-      width='500'
-    />
-  </a>
-</div>
-
 ## 创建散列表
 
 ```typescript
