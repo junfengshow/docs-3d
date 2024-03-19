@@ -53,6 +53,7 @@ interface LinkedListInterface<T> {
   // 链表是否为空
   isEmpty: () => boolean;
   // 链表长度
+  //
   size: () => number;
   // 获取链头
   getHead: () => NodeInterface<T> | null;
