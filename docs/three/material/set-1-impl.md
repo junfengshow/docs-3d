@@ -16,6 +16,7 @@ type SetDemoItemType = {
   [p in TType]: TType;
 };
 // 实现SetDemoInterface接口
+//
 class SetDemo implements SetDemoInterface<TType> {
   items: SetDemoItemType = {};
 
