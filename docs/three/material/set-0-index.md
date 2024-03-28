@@ -1,7 +1,7 @@
 ---
-title: 集合简介
+title: 材质1
 group:
-  title: 集合
+  title: 材质
   order: 4
 footer: false
 ---

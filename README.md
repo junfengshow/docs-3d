@@ -1,20 +1,16 @@
-# docs-3d
+# 3d
 
-A static site base on [dumi](https://d.umijs.org).
+## webgl
 
-## Development
+## three
 
-```bash
-# install dependencies
-$ yarn install
+### lights
 
-# start dev server
-$ yarn start
-
-# build docs
-$ yarn run build
-```
-
-## LICENSE
-
-MIT
+- AmbientLight
+- DirectionalLight
+- HemisphereLight
+- Light
+- LightProbe
+- PointLight
+- RectAreaLight
+- SpotLight

@@ -1,5 +1,5 @@
 ---
-title: threejs
+title: three
 order: 0
 footer: false
 ---
