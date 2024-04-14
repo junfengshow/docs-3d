@@ -6,5 +6,4 @@ hero:
   actions:
     - text: 进入笔记
       link: /webgl
-footer: © 2018-2022 All Rights Reserved Developed by [wujunfeng](https://www.junfengshow.com)
 ---

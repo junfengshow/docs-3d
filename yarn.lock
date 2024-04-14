@@ -3956,10 +3956,10 @@ dumi-assets-types@2.0.0-alpha.0:
   resolved "https://registry.npmmirror.com/dumi-assets-types/-/dumi-assets-types-2.0.0-alpha.0.tgz#46bf619ed1cb6d27bbe6a9cfe4be51e5e9589981"
   integrity sha512-a/Y5lf0G6gwsEQ9hop/n03CcjmHsGBk384Cz/AEX6mRYrfSpUx/lQvP9HLoXkCzScl9PL1sSmLPnMkgaXDCZLA==
 
-dumi-theme-apps@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.npmjs.org/dumi-theme-apps/-/dumi-theme-apps-0.0.1.tgz#4030d0bb711d52c032c17afc74ca99cc337c8670"
-  integrity sha512-8frJriX7Eg5SEgkDVNZIicLL/fn349hk9sLZyLRCoH0a5kkfq14KSaMhjD1rSEvtskVcT0TRcTXcql7l33YGUg==
+dumi-theme-apps@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.npmjs.org/dumi-theme-apps/-/dumi-theme-apps-0.0.4.tgz#4c13ed50a7a963023bae9e4fecfc8d7a64a93108"
+  integrity sha512-SnNzjFVmOKdr5Yr8zKCoq6a6uhESbFDkj1PocBZAdTl0m39U8fg2any0RzJaGbstCLaJ8MmjXUCnXVEikn/nSA==
   dependencies:
     animated-scroll-to "^2.3.0"
     antd "^5.15.4"
