@@ -29,4 +29,7 @@ export default defineConfig({
       to: 'docs-3d/public',
     },
   ],
+  chainWebpack(memo: any) {
+    return memo;
+  },
 });

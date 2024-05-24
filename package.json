@@ -17,13 +17,38 @@
   "lint-staged": {
     "*.{md,json}": [
       "prettier --write --no-error-on-unmatched-pattern"
+    ],
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
     ]
+  },
+  "dependencies": {
+    "@leva-ui/plugin-bezier": "^0.9.19",
+    "@monogrid/gainmap-js": "^3.0.5",
+    "@types/gl-matrix": "^3.2.0",
+    "@types/three": "^0.164.0",
+    "classnames": "^2.5.1",
+    "eventemitter3": "^5.0.1",
+    "gl-matrix": "^3.4.3",
+    "glsl-loader": "^0.0.1",
+    "glslify-loader": "^2.0.0",
+    "leva": "^0.9.35",
+    "lodash": "^4.17.21",
+    "prismjs": "^1.29.0",
+    "raw-loader": "^4.0.2",
+    "stats.js": "^0.17.0",
+    "three": "^0.164.1",
+    "three-bvh-csg": "^0.0.16",
+    "three-mesh-bvh": "^0.7.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
     "dumi": "^2.2.13",
-    "dumi-theme-apps": "^0.0.4",
+    "dumi-theme-apps": "^0.0.5",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"

@@ -22,6 +22,24 @@ import React from 'react';
 export default () => <>Hello world!</>;
 ```
 
+```jsx
+/**
+ * title: demo 标题
+ * description: descriptiondescriptiondescription
+ * compact: false
+ * background: '#fff'
+ * tocDepth: 10
+ */
+import React from 'react';
+
+export default () => (
+  <iframe
+    src="http://localhost:8000/examples/materials-cubemap?isDemo=1"
+    style={{ height: 800 }}
+  ></iframe>
+);
+```
+
 ```typescript
 /**
  * background: '#333'

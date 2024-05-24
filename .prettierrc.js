@@ -10,5 +10,9 @@ module.exports = {
         proseWrap: 'preserve',
       },
     },
+    {
+      files: '.prettierrc',
+      options: { parser: 'json' },
+    },
   ],
 };

@@ -1,3 +1,12 @@
 .dumi/tmp
 .dumi/tmp-production
 *.yaml
+
+**/*.svg
+**/*.ejs
+**/*.html
+**/*.glsl
+package.json
+.umi
+.umi-production
+.umi-test
