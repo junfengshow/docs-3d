@@ -2,7 +2,7 @@
 title: 简介
 group:
   title: 形状
-  order: 1
+  order: 2
 order: 1
 footer: false
 ---
